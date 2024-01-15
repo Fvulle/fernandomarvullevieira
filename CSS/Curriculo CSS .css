@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+	
+	body {font-family: Calibri, Arial;
+	 width: 100%;
+	 margin: 0px auto;
+	 background-color: #FFFFFF}
+.corpo{width: 100%; 
+	margin: auto}
+	
+		#Bloco1
+		{width: 100%}
+		#b1_b1 {float: left;
+				width: 100%;
+				height: 100%; 
+				background-color: antiquewhite;}
+				.bloco1_txt {
+						float: left;
+						width: 100%;
+						height: 100%;
+						margin: 60px 0px 50px 0px;
+						text-align: center;
+						font-size: 50px;
+						color: black;}
+		
+		/* Menu do Corpo */
+		.bloco_menu  ul {padding: 0;
+			list-style-type: none;
+			text-align: center;
+			background-color: antiquewhite}
+			
+			.bloco_menu ul li {display: inline-block; 
+				position: relative;}
+			
+			.bloco_menu ul li a {
+				color: #000000;
+				text-decoration: none;
+				padding: 0px;
+				display: inline-block;}
+
+			.bloco_menu ul li a:hover{
+			color: blue; }
+
+			/*Sub Menu*/
+			.bloco_menu  ul ul {display: none;
+						position: absolute;
+						padding: 0;
+						background-color: transparent;}
+
+			.bloco_menu  ul li:hover ul {display: block;
+						position: absolute;}
+		
+			.bloco_menu  ul ul li a {display: block;}
+						
+				
+					.b2_txt {float: left;
+					width: 10%;
+					text-align: left;
+					margin: 0px 0px 0px 0%;}
+	
+					a{float: center;
+					width: 100%;
+					height: 100%;
+					margin: 0px 50px 0px 50px;
+					font-weight: left;
+					font-size: 30px;
+					color: black;
+					text-decoration: none;}
+					a:visited {color: black;
+  					background-color: transparent;
+  					text-decoration: none;}
+
+					a:hover {font-weight: bold;
+					background-color: transparent;
+					text-decoration: none;}
+
+					a:active {
+					color: white;
+					background-color: transparent;
+					text-decoration: none;
+					}
+
+					/* Fix IE. Hide from IE Mac \*/
+					* html ul li { float: left; }
+					* html ul li a { height: 1%; }
+					/* End */
+				
+					/*corpo*/
+					.b2_corpo 
+					{width: 30%;
+				height: 100%; 
+				/*background-color: aqua;*/
+				margin: 5% 0% 0% 20%}
+	#bloco3 {width:100%;
+			height: 100%;}
+	
+			#bloco3_1{float: left;
+					 width:100%;
+					 height: 100%; 
+					font-weight: center;
+					 margin: 20px 0px 0px 0%;
+				     /*background-color: aqua;*/}
+			/*Curriculo*/
+			.bloco3_2{float: center; 
+					 width: 1200px;
+					 height: 100%;
+					 margin:  0 auto;
+					 /*background-color: #f1f1f1;*/}
+	
+			.bloco3_txt {
+						float: left;
+						width: 100%;
+						height: 100%;
+						margin: 0px 0px 0px 0px;
+						font-size: 20px;
+						font-weight: bold;
+						color: black;}
+						
+			.bloco3_txt_p {
+						float: left;
+						width: 100%;
+						height: 100%;
+						margin: 5px 0px 20px 0px;
+						font-size: 20px;
+						color: black;}
+					/* Imagem e Apresentação */
+					.bloco3_3{float: right;
+					 width: 600px;
+					 height: 400px;
+					 margin:  -650px 0px 0px 0px;}
+						
+						.bloco3_img{width: 250px;
+									height: 250px;
+									margin: 30px 0px 0px 10px;
+									-webkit-border-radius: 9px;
+									-moz-border-radius: 9px; 
+									border-radius: 100% }
+						.bloco3_Nome_txt{float: right;
+						width: 50%;
+						height: 100%;
+						margin: 80px 0px 0px -0px;
+						font-size: 20px;
+						font-weight: bold;
+						color: black;}
+						.bloco3_txt_nome_p {
+						float: right;
+						width: 50%;
+						height: 100%;
+						margin: -350px 0px 10px 1px;
+						font-size: 20px;
+						color: black;}
+	/* roda pé */
+	#bloco4 {width: 100%;
+			height: 50px;
+			margin-top: 800px;
+			background-color: antiquewhite}
+				.bloco4_txt {float: left;
+						width: 100%;
+						height: 100%;
+						margin: 10px 0px 20px 0px;
+						font-size: 20px;
+						text-align: center;
+						color: black;}
+	
+
